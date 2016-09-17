@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="fname">First Name:</label>
+		<input id="fname" type="text" name="fname" placeholder="John" required>
+		<label for="lname">Last Name:</label>
+		<input id="lname" type="text" name="lname" placeholder="Smith" required>
+		
+		<br>
+
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="female">
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="gender" value="other">
+
+		<br>
+
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" placeholder="your email" required>
+		<label for="pass">Password:</label>
+		<input id="pass" type="password" name="password" placeholder="your password" minlength="5" maxlength="10">
+
+		<br>
+
+		<label for="birthday">Birthday:</label>
+		<select id="birthday" name="months">
+			<option>Months</option>
+			<option>January - 01</option>
+			<option>Febuary - 02</option>
+			<option>March - 03</option>
+			<option>April - 04</option>
+			<option>May - 05</option>
+			<option>June - 06</option>
+			<option>July - 07</option>
+			<option>August - 08</option>
+			<option>September - 09</option>
+			<option>October - 10</option>
+			<option>November - 11</option>
+			<option>December - 12</option>
+		</select>
+
+		<select id="birthday" name="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+		</select>
+
+		<select name="year" id="birthday">
+			<option>Year</option>
+			<option>2016</option>
+			<option>2015</option>
+			<option>2014</option>
+		</select>
+
+		<br>
+
+		I agree to the terms and conditions
+		<input type="checkbox" name="check">
+
+		<br>
+
+		<input type="submit">
+	</form>
+</body>
+</html>

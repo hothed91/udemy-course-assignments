@@ -1,0 +1,14 @@
+button {
+  font-size: 100px;
+  display:block;
+  margin: 25% auto;
+  border-radius: 25px;
+}
+
+button:focus {
+  outline: 25px;
+}
+
+.purple {
+  background-color: purple;
+}

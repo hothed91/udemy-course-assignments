@@ -3,3 +3,4 @@ This repository contains all my solutions to assignments related to Udemy course
 
 ## Udemy/ Sub-directories
 - [Web Developer Bootcamp, Instructed by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/)
+- [Learn and Understand NodeJS, Instructed by Anthony Alicea](https://www.udemy.com/understand-nodejs/)
